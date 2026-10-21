@@ -1,0 +1,23 @@
+{
+  "name": "session-dashboard",
+  "version": "0.2.0",
+  "description": "Side pane: changed files, subagents, scheduled tasks, and the session's context, cache, quota and cost overhead",
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "cacheTtl": {
+      "type": "string",
+      "title": "Prompt cache TTL",
+      "description": "How long the prompt cache stays warm after a request",
+      "options": [
+        "1h",
+        "5m"
+      ],
+      "default": "1h"
+    }
+  },
+  "author": {
+    "name": "IanGely"
+  },
+  "license": "MIT",
+  "repository": "https://github.com/IanGely/claude-session-mods"
+}

@@ -1,0 +1,16 @@
+{
+  "name": "claude-session-mods",
+  "owner": { "name": "IanGely" },
+  "plugins": [
+    {
+      "name": "session-dashboard",
+      "source": "./session-dashboard",
+      "description": "Side pane: changed files, subagents, scheduled tasks, and context / cache / quota / cost overhead"
+    },
+    {
+      "name": "ctx-band",
+      "source": "./ctx-band",
+      "description": "One-line band above the prompt: context fill, growth, cache, rate limits and cost"
+    }
+  ]
+}
